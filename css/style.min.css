@@ -436,17 +436,17 @@ table {
   padding: 0 50px;
 }
 
-section {
+.section-testmoonials {
   background-image: url("../img/testmonials-bg 2.png");
   height: 1650px;
   background-size: cover;
 }
-section .section-head {
+.section-testmoonials .section-head {
   display: flex;
   text-align: center;
   justify-content: center;
 }
-section .section-head__text {
+.section-testmoonials .section-head__text {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
@@ -456,115 +456,115 @@ section .section-head__text {
   margin: 57px 0px 53px 0px;
   width: 320px;
 }
-section .section-main {
+.section-testmoonials .section-main {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section .section-main .smashing {
+.section-testmoonials .section-main .smashing {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section .section-main .smashing__smashing-img {
+.section-testmoonials .section-main .smashing__smashing-img {
   width: 165px;
   height: 43px;
   margin-bottom: 33px;
 }
-section .section-main .smashing__smashing-text {
+.section-testmoonials .section-main .smashing__smashing-text {
   width: 270px;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 45px;
 }
-section .section-main .codrops {
+.section-testmoonials .section-main .codrops {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section .section-main .codrops__codrops-img {
+.section-testmoonials .section-main .codrops__codrops-img {
   width: 148px;
   height: 50px;
   margin-bottom: 29px;
 }
-section .section-main .codrops__codrops-text {
+.section-testmoonials .section-main .codrops__codrops-text {
   width: 266px;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 45px;
 }
-section .section-main .w {
+.section-testmoonials .section-main .w {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section .section-main .w__w-img {
+.section-testmoonials .section-main .w__w-img {
   width: 64px;
   height: 64px;
   margin-bottom: 22px;
 }
-section .section-main .w__w-text {
+.section-testmoonials .section-main .w__w-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   width: 245px;
   margin-bottom: 45px;
 }
-section .section-main .pixel {
+.section-testmoonials .section-main .pixel {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section .section-main .pixel__pixel-img {
+.section-testmoonials .section-main .pixel__pixel-img {
   width: 225px;
   height: 24px;
   margin-bottom: 33px;
 }
-section .section-main .pixel__pixel-text {
+.section-testmoonials .section-main .pixel__pixel-text {
   width: 271px;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 45px;
 }
-section .section-main .creative {
+.section-testmoonials .section-main .creative {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section .section-main .creative__creative-img {
+.section-testmoonials .section-main .creative__creative-img {
   width: 166px;
   height: 34px;
   margin-bottom: 28px;
 }
-section .section-main .creative__creative-text {
+.section-testmoonials .section-main .creative__creative-text {
   width: 280px;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 45px;
 }
-section .section-main .tnw {
+.section-testmoonials .section-main .tnw {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-section .section-main .tnw__tnw-img {
+.section-testmoonials .section-main .tnw__tnw-img {
   width: 108px;
   height: 34px;
   margin-bottom: 24px;
 }
-section .section-main .tnw__tnw-text {
+.section-testmoonials .section-main .tnw__tnw-text {
   width: 246px;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 45px;
 }
-section .all-test {
+.section-testmoonials .all-test {
   font-family: "Lato";
   font-style: italic;
   color: #FFFFFF;
@@ -572,11 +572,11 @@ section .all-test {
   align-items: center;
   text-align: center;
 }
-section .section-footer {
+.section-testmoonials .section-footer {
   display: flex;
   justify-content: center;
 }
-section .section-footer__footer-text {
+.section-testmoonials .section-footer__footer-text {
   width: 251px;
   font-family: "Lato";
   font-style: normal;
@@ -1268,17 +1268,17 @@ section .section-footer__footer-text {
   }
 }
 @media (min-width: 481px) and (max-width: 992px) {
-  section {
+  .section-testmoonials {
     background-image: url("../img/testmonials-bg 2.png");
     height: 100%;
     background-size: cover;
   }
-  section .section-head {
+  .section-testmoonials .section-head {
     display: flex;
     text-align: center;
     justify-content: center;
   }
-  section .section-head__text {
+  .section-testmoonials .section-head__text {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
@@ -1288,7 +1288,7 @@ section .section-footer__footer-text {
     margin: 57px 0px 53px 0px;
     width: 100%;
   }
-  section .section-main {
+  .section-testmoonials .section-main {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1296,109 +1296,109 @@ section .section-footer__footer-text {
     flex-wrap: wrap;
     justify-content: center;
   }
-  section .section-main .smashing {
+  .section-testmoonials .section-main .smashing {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .smashing__smashing-img {
+  .section-testmoonials .section-main .smashing__smashing-img {
     width: 165px;
     height: 43px;
     margin-bottom: 33px;
   }
-  section .section-main .smashing__smashing-text {
+  .section-testmoonials .section-main .smashing__smashing-text {
     width: 270px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 45px;
   }
-  section .section-main .codrops {
+  .section-testmoonials .section-main .codrops {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .codrops__codrops-img {
+  .section-testmoonials .section-main .codrops__codrops-img {
     width: 148px;
     height: 50px;
     margin-bottom: 29px;
   }
-  section .section-main .codrops__codrops-text {
+  .section-testmoonials .section-main .codrops__codrops-text {
     width: 266px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 45px;
   }
-  section .section-main .w {
+  .section-testmoonials .section-main .w {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .w__w-img {
+  .section-testmoonials .section-main .w__w-img {
     width: 64px;
     height: 64px;
     margin-bottom: 22px;
   }
-  section .section-main .w__w-text {
+  .section-testmoonials .section-main .w__w-text {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     width: 245px;
     margin-bottom: 45px;
   }
-  section .section-main .pixel {
+  .section-testmoonials .section-main .pixel {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .pixel__pixel-img {
+  .section-testmoonials .section-main .pixel__pixel-img {
     width: 225px;
     height: 24px;
     margin-bottom: 33px;
   }
-  section .section-main .pixel__pixel-text {
+  .section-testmoonials .section-main .pixel__pixel-text {
     width: 271px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 45px;
   }
-  section .section-main .creative {
+  .section-testmoonials .section-main .creative {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .creative__creative-img {
+  .section-testmoonials .section-main .creative__creative-img {
     width: 166px;
     height: 34px;
     margin-bottom: 28px;
   }
-  section .section-main .creative__creative-text {
+  .section-testmoonials .section-main .creative__creative-text {
     width: 280px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 45px;
   }
-  section .section-main .tnw {
+  .section-testmoonials .section-main .tnw {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .tnw__tnw-img {
+  .section-testmoonials .section-main .tnw__tnw-img {
     width: 108px;
     height: 34px;
     margin-bottom: 24px;
   }
-  section .section-main .tnw__tnw-text {
+  .section-testmoonials .section-main .tnw__tnw-text {
     width: 246px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 45px;
   }
-  section .all-test {
+  .section-testmoonials .all-test {
     font-family: "Lato";
     font-style: italic;
     color: #FFFFFF;
@@ -1407,11 +1407,11 @@ section .section-footer__footer-text {
     text-align: center;
     width: 315px;
   }
-  section .section-footer {
+  .section-testmoonials .section-footer {
     display: flex;
     justify-content: center;
   }
-  section .section-footer__footer-text {
+  .section-testmoonials .section-footer__footer-text {
     width: 100%;
     font-family: "Lato";
     font-style: normal;
@@ -1424,7 +1424,7 @@ section .section-footer__footer-text {
   }
 }
 @media (min-width: 992px) {
-  section {
+  .section-testmoonials {
     background-image: url("../img/testmonials-bg 2.png");
     height: 100%;
     background-size: cover;
@@ -1432,12 +1432,12 @@ section .section-footer__footer-text {
     flex-direction: column;
     align-items: center;
   }
-  section .section-head {
+  .section-testmoonials .section-head {
     display: flex;
     text-align: center;
     justify-content: center;
   }
-  section .section-head__text {
+  .section-testmoonials .section-head__text {
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
@@ -1447,7 +1447,7 @@ section .section-footer__footer-text {
     margin: 57px 0px 53px 0px;
     width: 100%;
   }
-  section .section-main {
+  .section-testmoonials .section-main {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1456,109 +1456,109 @@ section .section-footer__footer-text {
     justify-content: space-evenly;
     max-width: 1200px;
   }
-  section .section-main .smashing {
+  .section-testmoonials .section-main .smashing {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .smashing__smashing-img {
+  .section-testmoonials .section-main .smashing__smashing-img {
     width: 165px;
     height: 43px;
     margin-bottom: 33px;
   }
-  section .section-main .smashing__smashing-text {
+  .section-testmoonials .section-main .smashing__smashing-text {
     width: 270px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 45px;
   }
-  section .section-main .codrops {
+  .section-testmoonials .section-main .codrops {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .codrops__codrops-img {
+  .section-testmoonials .section-main .codrops__codrops-img {
     width: 148px;
     height: 50px;
     margin-bottom: 29px;
   }
-  section .section-main .codrops__codrops-text {
+  .section-testmoonials .section-main .codrops__codrops-text {
     width: 266px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 45px;
   }
-  section .section-main .w {
+  .section-testmoonials .section-main .w {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .w__w-img {
+  .section-testmoonials .section-main .w__w-img {
     width: 64px;
     height: 64px;
     margin-bottom: 22px;
   }
-  section .section-main .w__w-text {
+  .section-testmoonials .section-main .w__w-text {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     width: 245px;
     margin-bottom: 45px;
   }
-  section .section-main .pixel {
+  .section-testmoonials .section-main .pixel {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .pixel__pixel-img {
+  .section-testmoonials .section-main .pixel__pixel-img {
     width: 225px;
     height: 24px;
     margin-bottom: 33px;
   }
-  section .section-main .pixel__pixel-text {
+  .section-testmoonials .section-main .pixel__pixel-text {
     width: 271px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 45px;
   }
-  section .section-main .creative {
+  .section-testmoonials .section-main .creative {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .creative__creative-img {
+  .section-testmoonials .section-main .creative__creative-img {
     width: 166px;
     height: 34px;
     margin-bottom: 28px;
   }
-  section .section-main .creative__creative-text {
+  .section-testmoonials .section-main .creative__creative-text {
     width: 280px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 45px;
   }
-  section .section-main .tnw {
+  .section-testmoonials .section-main .tnw {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  section .section-main .tnw__tnw-img {
+  .section-testmoonials .section-main .tnw__tnw-img {
     width: 108px;
     height: 34px;
     margin-bottom: 24px;
   }
-  section .section-main .tnw__tnw-text {
+  .section-testmoonials .section-main .tnw__tnw-text {
     width: 246px;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 45px;
   }
-  section .all-test {
+  .section-testmoonials .all-test {
     font-family: "Lato";
     font-style: italic;
     color: #FFFFFF;
@@ -1567,12 +1567,12 @@ section .section-footer__footer-text {
     text-align: center;
     width: 315px;
   }
-  section .section-footer {
+  .section-testmoonials .section-footer {
     display: flex;
     justify-content: center;
     max-width: 900px;
   }
-  section .section-footer__footer-text {
+  .section-testmoonials .section-footer__footer-text {
     width: 100%;
     font-family: "Lato";
     font-style: normal;
